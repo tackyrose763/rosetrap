@@ -1,5 +1,9 @@
 # 🌹 rosetrap: The Asynchronous Variable Data Hub
 
+[![PyPI Version](https://img.shields.io/pypi/v/rosetrap.svg)](https://pypi.org/project/rosetrap/)
+[![License](https://img.shields.io/github/license/tackyrose763/rosetrap.svg)](https://github.com/tackyrose763/rosetrap/blob/main/LICENSE)
+[![Python Version](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
+
 **`rosetrap`** provides an efficient, non-polling mechanism for inter-process communication (IPC) and variable synchronization across Python scripts, leveraging **FastAPI** on the server and the **`requests`** library on the client.
 
 It implements a robust, event-driven pattern that allows a consuming process to **block indefinitely without consuming CPU cycles** until a producing process updates the required variable.
